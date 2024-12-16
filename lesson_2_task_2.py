@@ -1,9 +1,8 @@
-is_year_leap = input()
-year_number = int(is_year_leap)
+is_year_leap = int(input("Введите год: "))
 
-if (year_number % 4 == 0):
+if (is_year_leap % 4 == 0):
     result = "True"
 else:
     result = "False"
 
-print("год " + is_year_leap + " " + result)
+print(f"год{is_year_leap}: {result}")

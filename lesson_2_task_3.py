@@ -1,8 +1,7 @@
 import math
 
-square = input("Введите сторону квадрата: ")
-num = float(square)
+side_length = float(input("Введите сторону квадрата: "))
 
-result = num * num
+result = side_length ** 2
 
-print(math.ceil(result))
+print(f"Прощедь квадрата: {math.ceil(result)}")

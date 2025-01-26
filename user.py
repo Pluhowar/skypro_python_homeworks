@@ -6,5 +6,5 @@ class User:
         print(self.first_name)
     def print_last_name(self):
         print(self.last_name)
-    def print_long_name(salf):
-        print ((salf.first_name) + " " + (salf.last_name))
+    def print_long_name(self):
+        print ((self.first_name) + " " + (self.last_name))
